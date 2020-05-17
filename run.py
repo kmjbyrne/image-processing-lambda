@@ -1,8 +1,6 @@
 from src.handler import main
 
 data = """
-'https://s3-eu-west-1.amazonaws.com/bns.assets/public/images/2020/may/IMG_20200517_194237.jpg'
-'https://s3-eu-west-1.amazonaws.com/bns.assets/public/images/2020/may/everest-1150px.jpg'
 """
 
 for item in data.split('\n'):
