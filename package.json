@@ -1,0 +1,29 @@
+{
+  "name": "bns-backend",
+  "version": "1.0.0",
+  "description": "Ballyconnell National School common project repository",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmjbyrne/bns-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmjbyrne/bns-backend/issues"
+  },
+  "homepage": "https://github.com/kmjbyrne/bns-backend#readme",
+  "devDependencies": {
+    "serverless-domain-manager": "^3.3.1",
+    "serverless-plugin-warmup": "^4.8.0",
+    "serverless-python-requirements": "^5.0.1",
+    "serverless-wsgi": "^1.7.4"
+  }
+}

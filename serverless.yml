@@ -1,0 +1,21 @@
+# serverless.yml
+
+
+service: ImageProcessingService
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+provider:
+  name: aws
+  runtime: python3.7
+  region: eu-west-1
+
+functions:
+  Core:
+    name: ImageProcessingService
+    handler: src/handler.main
